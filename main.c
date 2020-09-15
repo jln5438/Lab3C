@@ -28,7 +28,7 @@ void print_n(int n, const char *s){
 int main(void){
   int n=(int)readline("Enter an int: ");
   int i=sum_n(n);
-  printf("sum is %i.",i);
+  printf("sum is %d.",i);
   char *s=readline("Enter a string: ");
   print_n(n,s);
 }
